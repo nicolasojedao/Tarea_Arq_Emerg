@@ -6,3 +6,4 @@ Ejemplo de consulta por Postman (GET): http://3.90.1.6:8000/api/v1/companies/
 
 
 Para realizar consulta GET a sensor_data, se recomienda el siguiente URL de plantilla: http://3.90.1.6:8000/api/v1/sensor_data/?from=1672531200&to=1735522243&sensor_ids=Id_del_sensor
+A esto tambien se le agrega el HEADER: company-api-key: key_de_la_compañia
